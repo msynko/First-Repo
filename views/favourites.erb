@@ -1,0 +1,7 @@
+<h1>Welcome to the favourites</h1>
+
+<ul>
+  <% @fav_links.each do |link, text| %>
+    <li> <a href="<%= link %>"><%= text %></a> </li>
+  <% end %>
+</ul>
